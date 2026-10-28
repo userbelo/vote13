@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/freepay/(.*)",
+      "destination": "https://api.freepaybrasil.com/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
